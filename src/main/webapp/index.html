@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html ng-app="qwerty">
+	<head>
+		<title>Title</title>
+		
+		<meta charset="utf-8">
+    	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+    	<meta name="viewport" content="width=device-width, initial-scale=1">
+		
+		<script src="resources/lib/angular.min.js"></script>
+		<script src="resources/lib/bootstrap.js"></script>
+		
+		<link rel="stylesheet" type="text/css" href="resources/css/bootstrap.css"/>
+		<link rel="stylesheet" type="text/css" href="resources/css/screen.css"/>
+		
+		<!-- JS files -->
+		<script src="resources/js/module/qwerty.js"></script>
+		<script src="resources/js/controller/qwertyController.js"></script>
+		
+		
+	</head>
+	
+	<body>
+		<div class="jumbotron text-center">
+			<h1>Welcome</h1>
+		</div>
+		<div class="container" ng-controller="qwertyController">
+			<p>{{greeting}}</p>
+		</div>
+	</body>
+	
+</html>
